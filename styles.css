@@ -16,10 +16,11 @@ body {
     flex-wrap: wrap;
     align-items: center;
     padding: 5rem;
+    
 }
 
 .one, .two {
-    flex-basis: 300px;
+    flex-basis: 450px;
 }
 
 .one {
