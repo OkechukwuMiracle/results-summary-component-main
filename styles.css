@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Manrope', sans-serif;
 }
 
 body {
@@ -13,22 +13,23 @@ body {
 .parent {
     display: flex;
     justify-content: center;
-    margin: 10% auto;
-    font-family: 'Times New Roman', Times, serif;
-    width: 35%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5rem;
 }
 
+.one, .two {
+    flex-basis: 300px;
+}
 
 .one {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     text-align: center; 
     border-radius: 15px;
-    width: 50%;
 }
 
 .two {
     background-color:  hsl(0, 0%, 100%);
-    width: 50%;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 7px;
