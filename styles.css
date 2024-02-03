@@ -13,10 +13,8 @@ body {
 .parent {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
     align-items: center;
     padding: 5rem;
-    /* width: 100%; */
 }
 
 .one, .two {
