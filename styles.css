@@ -13,14 +13,21 @@ body {
 .parent {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     padding: 5rem;
-    
+    /* width: 100%; */
 }
 
 .one, .two {
-    flex-basis: 450px;
+    flex-basis: 300px;
+    width: 160%;
+}
+
+@media screen and (max-width: 344px) {
+    .parent {
+        flex-direction: column;
+    }
 }
 
 .one {
